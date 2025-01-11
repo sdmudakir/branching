@@ -8,5 +8,5 @@ response = client.run_instances(
     KeyName = 'devops',
 
     MaxCount=1,
-    MinCount=1,
+    MinCount=2,
 )
